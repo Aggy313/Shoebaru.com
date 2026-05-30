@@ -57,7 +57,7 @@ export default function Hero({ onExploreKicks }: HeroProps) {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-gray-400 text-sm sm:text-base leading-relaxed"
               >
-                Designed in Nairobi for elite pace. The Shoebaru Apex-X dual carbon-plate sneaker combines active kinetic propulsion with premium local craftsmanship, engineered for heavy road durability and continuous comfort.
+                Designed in Nairobi for elite pace. The Apex-X dual carbon-plate sneaker combines active kinetic propulsion with premium local craftsmanship, engineered for heavy road durability and continuous comfort.
               </motion.p>
 
               {/* Action Buttons */}
@@ -156,7 +156,7 @@ export default function Hero({ onExploreKicks }: HeroProps) {
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[70%] h-6 bg-brand-gold/20 blur-xl hover:bg-brand-gold/35 transition-all rounded-full" />
                 <img
                   src={HERO_SHOE_PATH}
-                  alt="Shoebaru Nairobi Prime Shoe"
+                  alt="Nairobi Prime Shoe"
                   className="w-full h-auto object-contain transform -rotate-12 group-hover:rotate-[-6deg] transition-transform duration-500 drop-shadow-[0_20px_40px_rgba(197,160,89,0.3)]"
                   referrerPolicy="no-referrer"
                 />
@@ -218,7 +218,7 @@ export default function Hero({ onExploreKicks }: HeroProps) {
               <div className="mb-6">
                 <span className="text-[10px] font-mono text-brand-gold uppercase tracking-widest font-bold">Spec sheet</span>
                 <h3 className="font-display font-black text-2xl sm:text-3xl text-white mt-1">APEX-X "NAIROBI" PLATE MECHANICS</h3>
-                <p className="text-gray-400 text-xs mt-1">Breakdown of Shoebaru high-performance technological variables.</p>
+                <p className="text-gray-400 text-xs mt-1">Breakdown of high-performance technological variables.</p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">

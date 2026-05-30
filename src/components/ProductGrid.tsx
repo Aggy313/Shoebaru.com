@@ -140,7 +140,7 @@ export default function ProductGrid({
         {/* Dynamic Products Grid Panel */}
         {filteredProducts.length === 0 ? (
           <div id="empty-product-state" className="text-center py-24 bg-[#0a0a0a] rounded-3xl border border-white/5">
-            <p className="font-display font-medium text-lg text-gray-400">No Shoebaru kicks match your current parameters.</p>
+            <p className="font-display font-medium text-lg text-gray-400">No kicks match your current parameters.</p>
             <p className="text-xs text-gray-500 mt-2">Try writing a shorter query or clearing category overrides.</p>
             <button
               onClick={() => {

@@ -127,7 +127,7 @@ export default function CartDrawer({
                       </div>
                       <div>
                         <p className="font-display font-bold text-base text-white">Your cart is empty</p>
-                        <p className="text-gray-500 text-xs mt-1">Sling some Shoebaru performance in here.</p>
+                        <p className="text-gray-500 text-xs mt-1">Sling some high-performance kicks in here.</p>
                       </div>
                       <button
                         onClick={onClose}

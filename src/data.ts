@@ -43,7 +43,7 @@ export const CATEGORIES = [
 export const PRODUCTS: Product[] = [
   {
     id: 'sb-01',
-    name: 'Shoebaru Apex-X "Nairobi Edition"',
+    name: 'Apex-X "Nairobi Edition"',
     category: 'Running',
     price: 12450,
     originalPrice: 15900,
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-02',
-    name: 'Shoebaru Lava Glider v4',
+    name: 'Lava Glider v4',
     category: 'Running',
     price: 8900,
     rating: 4.8,
@@ -78,7 +78,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-03',
-    name: 'Shoebaru Rift-Valley Outlaw',
+    name: 'Rift-Valley Outlaw',
     category: 'Boots',
     price: 14500,
     rating: 4.9,
@@ -95,7 +95,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-04',
-    name: 'Shoebaru Kinetic Flare',
+    name: 'Kinetic Flare',
     category: 'Sneakers',
     price: 9200,
     originalPrice: 11500,
@@ -113,7 +113,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-05',
-    name: 'Shoebaru Pastel Swift-Walk',
+    name: 'Pastel Swift-Walk',
     category: 'Sneakers',
     price: 7800,
     rating: 4.6,
@@ -130,7 +130,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-06',
-    name: 'Shoebaru Classic Minimalist',
+    name: 'Classic Minimalist',
     category: 'Casual',
     price: 6500,
     rating: 4.5,
@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-07',
-    name: 'Shoebaru Rift Rover Slide',
+    name: 'Rift Rover Slide',
     category: 'Sandals',
     price: 3400,
     originalPrice: 4200,
@@ -165,7 +165,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-08',
-    name: 'Shoebaru Hydro-Shield Backpack',
+    name: 'Hydro-Shield Backpack',
     category: 'Accessories',
     price: 5200,
     rating: 4.7,
@@ -182,7 +182,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-09',
-    name: 'Shoebaru Trail Blazer x1',
+    name: 'Trail Blazer x1',
     category: 'Running',
     price: 9800,
     rating: 4.9,
@@ -199,7 +199,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-10',
-    name: 'Shoebaru Desert Breeze Boot',
+    name: 'Desert Breeze Boot',
     category: 'Boots',
     price: 11500,
     rating: 4.8,
@@ -216,7 +216,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-11',
-    name: 'Shoebaru Coastal Oasis Sandal',
+    name: 'Coastal Oasis Sandal',
     category: 'Sandals',
     price: 4500,
     originalPrice: 5200,
@@ -234,7 +234,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-12',
-    name: 'Shoebaru Aerostride Cap',
+    name: 'Aerostride Cap',
     category: 'Accessories',
     price: 2800,
     rating: 4.6,
@@ -251,7 +251,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-13',
-    name: 'Shoebaru Retro Suede Classic',
+    name: 'Retro Suede Classic',
     category: 'Casual',
     price: 8200,
     originalPrice: 9500,
@@ -269,7 +269,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sb-14',
-    name: 'Shoebaru Urban Stealth Sneaker',
+    name: 'Urban Stealth Sneaker',
     category: 'Sneakers',
     price: 10500,
     rating: 4.9,
@@ -293,7 +293,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'Marathon Trainer',
     location: 'Eldoret, Ke',
     rating: 5,
-    comment: 'The kinetic propulsion plate in the Shoebaru Nairobi Edition is absolutely insane. Decreased my split times immediately. High-quality support combined with stunning design!',
+    comment: 'The kinetic propulsion plate in the Apex-X Nairobi Edition is absolutely insane. Decreased my split times immediately. High-quality support combined with stunning design!',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150&auto=format&fit=crop'
   },
   {
