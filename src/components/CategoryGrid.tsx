@@ -1,6 +1,15 @@
 import { motion } from 'motion/react';
 import { Zap, Activity, Compass, Mountain, Sun, ShoppingBag } from 'lucide-react';
-import { CATEGORIES, PRODUCTS } from '../data';
+import {
+  CATEGORIES,
+  PRODUCTS,
+  HERO_SHOE_PATH,
+  ORANGE_SNEAKER_PATH,
+  CLASSIC_MINIMALIST_PATH,
+  BLACK_BOOT_PATH,
+  RIFT_ROVER_SLIDE_PATH,
+  HYDRO_SHIELD_BACKPACK_PATH
+} from '../data';
 
 interface CategoryGridProps {
   activeCategory: string;
@@ -31,17 +40,17 @@ const getCategoryIcon = (iconName: string) => {
 const getCategoryImg = (catId: string) => {
   switch (catId) {
     case 'Sneakers':
-      return '/src/assets/images/orange_sneaker_1780128545824.png';
+      return ORANGE_SNEAKER_PATH;
     case 'Running':
-      return '/src/assets/images/hero_shoe_1780128522667.png';
+      return HERO_SHOE_PATH;
     case 'Casual':
-      return '/src/assets/images/classic_minimalist_1780129608853.png';
+      return CLASSIC_MINIMALIST_PATH;
     case 'Boots':
-      return '/src/assets/images/black_boot_1780128564578.png';
+      return BLACK_BOOT_PATH;
     case 'Sandals':
-      return '/src/assets/images/rift_rover_slide_1780129571296.png';
+      return RIFT_ROVER_SLIDE_PATH;
     case 'Accessories':
-      return '/src/assets/images/hydro_shield_backpack_1780129590019.png';
+      return HYDRO_SHIELD_BACKPACK_PATH;
     default:
       return '';
   }

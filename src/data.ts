@@ -1,21 +1,35 @@
 import { Product, Testimonial } from './types';
 
-// Let's import the actual generated high-quality images.
-// We'll write the hardcoded string paths directly to ensure they work fine
-export const HERO_SHOE_PATH = '/src/assets/images/hero_shoe_1780128522667.png';
-export const ORANGE_SNEAKER_PATH = '/src/assets/images/orange_sneaker_1780128545824.png';
-export const BLACK_BOOT_PATH = '/src/assets/images/black_boot_1780128564578.png';
-export const CLASSIC_MINIMALIST_PATH = '/src/assets/images/classic_minimalist_1780129608853.png';
-export const RIFT_ROVER_SLIDE_PATH = '/src/assets/images/rift_rover_slide_1780129571296.png';
-export const HYDRO_SHIELD_BACKPACK_PATH = '/src/assets/images/hydro_shield_backpack_1780129590019.png';
-export const KINETIC_FLARE_PATH = '/src/assets/images/kinetic_flare_1780130198804.png';
-export const PASTEL_SWIFT_WALK_PATH = '/src/assets/images/pastel_swift_walk_1780130218179.png';
-export const TRAIL_BLAZER_RUNNER_PATH = '/src/assets/images/trail_blazer_runner_1780130960477.png';
-export const DESERT_BREEZE_BOOT_PATH = '/src/assets/images/desert_breeze_boot_1780130976572.png';
-export const COASTAL_OASIS_SANDAL_PATH = '/src/assets/images/coastal_oasis_sandal_1780130994496.png';
-export const AEROSTRIDE_CAP_PATH = '/src/assets/images/aerostride_cap_1780131010881.png';
-export const RETRO_SUEDE_CASUAL_PATH = '/src/assets/images/retro_suede_casual_1780131028979.png';
-export const URBAN_STEALTH_SNEAKER_PATH = '/src/assets/images/urban_stealth_sneaker_1780131051726.png';
+// Import high-quality shoe images to let Vite copy and resolve their paths correctly on production builds.
+import heroShoe from './assets/images/hero_shoe_1780128522667.png';
+import orangeSneaker from './assets/images/orange_sneaker_1780128545824.png';
+import blackBoot from './assets/images/black_boot_1780128564578.png';
+import classicMinimalist from './assets/images/classic_minimalist_1780129608853.png';
+import riftRoverSlide from './assets/images/rift_rover_slide_1780129571296.png';
+import hydroShieldBackpack from './assets/images/hydro_shield_backpack_1780129590019.png';
+import kineticFlare from './assets/images/kinetic_flare_1780130198804.png';
+import pastelSwiftWalk from './assets/images/pastel_swift_walk_1780130218179.png';
+import trailBlazerRunner from './assets/images/trail_blazer_runner_1780130960477.png';
+import desertBreezeBoot from './assets/images/desert_breeze_boot_1780130976572.png';
+import coastalOasisSandal from './assets/images/coastal_oasis_sandal_1780130994496.png';
+import aerostrideCap from './assets/images/aerostride_cap_1780131010881.png';
+import retroSuedeCasual from './assets/images/retro_suede_casual_1780131028979.png';
+import urbanStealthSneaker from './assets/images/urban_stealth_sneaker_1780131051726.png';
+
+export const HERO_SHOE_PATH = heroShoe;
+export const ORANGE_SNEAKER_PATH = orangeSneaker;
+export const BLACK_BOOT_PATH = blackBoot;
+export const CLASSIC_MINIMALIST_PATH = classicMinimalist;
+export const RIFT_ROVER_SLIDE_PATH = riftRoverSlide;
+export const HYDRO_SHIELD_BACKPACK_PATH = hydroShieldBackpack;
+export const KINETIC_FLARE_PATH = kineticFlare;
+export const PASTEL_SWIFT_WALK_PATH = pastelSwiftWalk;
+export const TRAIL_BLAZER_RUNNER_PATH = trailBlazerRunner;
+export const DESERT_BREEZE_BOOT_PATH = desertBreezeBoot;
+export const COASTAL_OASIS_SANDAL_PATH = coastalOasisSandal;
+export const AEROSTRIDE_CAP_PATH = aerostrideCap;
+export const RETRO_SUEDE_CASUAL_PATH = retroSuedeCasual;
+export const URBAN_STEALTH_SNEAKER_PATH = urbanStealthSneaker;
 
 export const CATEGORIES = [
   { id: 'Sneakers', name: 'Sneakers', count: 12, icon: 'Zap' },
