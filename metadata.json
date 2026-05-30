@@ -1,0 +1,6 @@
+{
+  "name": "Shoebaru",
+  "description": "Interactive Shoebaru eCommerce homepage with dynamic product grid, filtering, categories, newsletter, review system, and slide-out cart drawer with M-Pesa integration integrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
