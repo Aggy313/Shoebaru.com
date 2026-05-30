@@ -109,10 +109,10 @@ export default function Navbar({
     <>
       <header
         id="navbar-header"
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+        className={`sticky top-0 w-full z-40 transition-all duration-300 ${
           isScrolled
-            ? 'bg-brand-spruce-dark/90 backdrop-blur-md border-b border-white/5 py-2 shadow-xl'
-            : 'bg-transparent py-4'
+            ? 'bg-brand-spruce-dark/95 backdrop-blur-md border-b border-white/5 py-2 shadow-xl'
+            : 'bg-brand-spruce-dark/80 backdrop-blur-md py-4'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

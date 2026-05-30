@@ -159,7 +159,7 @@ export default function App() {
   const totalCartCount = cart.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
-    <div className="relative min-h-screen bg-black text-gray-100 flex flex-col font-sans selection:bg-orange-600 selection:text-white">
+    <div className="relative min-h-screen w-full max-w-full overflow-x-hidden bg-black text-gray-100 flex flex-col font-sans selection:bg-orange-600 selection:text-white">
       {/* 1. Custom status Toast feedback notifications */}
       <AnimatePresence>
         {toast.show && (

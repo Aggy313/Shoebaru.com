@@ -113,7 +113,7 @@ export default function Hero({ onExploreKicks }: HeroProps) {
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-spruce/30 to-transparent rounded-full blur-[100px] pointer-events-none" />
 
               {/* Rotating Spinning Badge (circular seal of design) */}
-              <div className="absolute z-20 -top-4 right-10 xs:right-16 md:right-24 xl:right-12 animate-[spin_12s_linear_infinite] select-none pointer-events-none duration-1000">
+              <div className="absolute z-20 -top-6 -right-2 sm:-top-4 sm:right-10 md:right-24 xl:right-12 scale-75 xs:scale-90 sm:scale-100 animate-[spin_12s_linear_infinite] select-none pointer-events-none duration-1000">
                 <svg className="w-24 h-24 sm:w-28 sm:h-28 text-brand-gold font-mono text-[8px] font-bold fill-current" viewBox="0 0 100 100">
                   <path id="circlePath" d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" fill="transparent" />
                   <text className="tracking-[3px] uppercase">
@@ -149,7 +149,7 @@ export default function Hero({ onExploreKicks }: HeroProps) {
                     ease: 'easeInOut',
                   },
                 }}
-                className="relative z-10 w-full max-w-[280px] sm:max-w-[360px] lg:max-w-[420px] px-4 cursor-pointer group"
+                className="relative z-10 w-full max-w-[240px] sm:max-w-[360px] lg:max-w-[420px] px-4 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
               >
                 {/* Radial drop shadow behind the shoe file */}
@@ -167,7 +167,7 @@ export default function Hero({ onExploreKicks }: HeroProps) {
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.5 }}
-                className="absolute bottom-10 left-4 sm:left-12 bg-brand-spruce-dark/90 backdrop-blur-md rounded-2xl p-3 border border-white/10 shadow-xl z-20 flex items-center gap-3 select-none"
+                className="absolute bottom-10 left-4 sm:left-12 bg-brand-spruce-dark/90 backdrop-blur-md rounded-2xl p-3 border border-white/10 shadow-xl z-20 hidden sm:flex items-center gap-3 select-none animate-pulse-slow"
               >
                 <div className="w-8 h-8 rounded-xl bg-brand-gold/10 flex items-center justify-center text-brand-gold">
                   <Zap className="w-4 h-4 fill-brand-gold text-brand-gold" />
@@ -182,7 +182,7 @@ export default function Hero({ onExploreKicks }: HeroProps) {
                 initial={{ opacity: 0, x: 30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
-                className="absolute top-12 right-4 sm:right-12 bg-brand-spruce-dark/90 backdrop-blur-md rounded-2xl p-3 border border-white/10 shadow-xl z-20 flex items-center gap-3 select-none"
+                className="absolute top-12 right-4 sm:right-12 bg-brand-spruce-dark/90 backdrop-blur-md rounded-2xl p-3 border border-white/10 shadow-xl z-20 hidden sm:flex items-center gap-3 select-none animate-pulse-slow"
               >
                 <div className="w-8 h-8 rounded-xl bg-brand-gold/10 flex items-center justify-center text-brand-gold">
                   <Shield id="hero-shield-icon" className="w-4 h-4 text-brand-gold" />
